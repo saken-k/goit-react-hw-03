@@ -1,0 +1,32 @@
+.form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 350px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+
+.field {
+  box-sizing: border-box;
+  padding: 4px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

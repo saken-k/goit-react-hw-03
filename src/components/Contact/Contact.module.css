@@ -1,0 +1,23 @@
+.item {
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}

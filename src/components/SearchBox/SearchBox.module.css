@@ -1,0 +1,20 @@
+.search {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 4px;
+  padding: 10px 0;
+  width: 350px;
+}
+
+.p {
+  font-weight: 400;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 4px;
+}
