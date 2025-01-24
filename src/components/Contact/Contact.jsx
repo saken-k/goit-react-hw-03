@@ -7,11 +7,11 @@ const Contact = ({ contact: { id, name, number }, onDelete }) => {
     <li className={css.item}>
       <div className={css.data}>
         <p className={css.p}>
-          <HiPhone />
+          <FaUser />
           {name}
         </p>
         <p className={css.p}>
-          <FaUser />
+          <HiPhone />
           {number}
         </p>
       </div>
